@@ -1,0 +1,4 @@
+Os testes funcionais são complexos e lentos, dessa forma é recomendado ter poucos
+Os testes unitários são rápidos, dessa forma estes estão em grandes quantidades nos sistemas
+Os testes funcionais devem inicializar a aplicação como todo e normalmente testam fluxos de usuário
+Os testes unitários testam apenas parte do código, limitando-se a apenas verificar se determinado bloco de instruções manteve o comportamento esperado
