@@ -1,0 +1,13 @@
+Como estamos utilizando dois tipos de testes os procedimentos a serem realizados ao implementar novos trechos de código são:
+
+1. Escrevemos testes funcionais para a feature a ser implementada
+2. Verificamos que estes não passam em um primeiro momento
+3. Escrevemos testes unitários para a feature a ser implementada
+4. Verificamos que estes também não passam
+5. Escrevemos o código mínimo para que a aplicação passe nos testes unitários
+6. Com os testes passando, verificamos se o mesmo precisa ser refatorado
+7. Caso sim, refatoramos o código e verificamos se os testes continuam passando
+8. Verificamos então se os testes funcionais passaram
+9. Com os testes passando, verificamos se o código ainda precisa ser refatorado
+10. Caso sim verificamos se o o código continua passando nos testes unitários e nos funcionais
+11. O ciclo se repete até que a feature esteja implementada completamente com os dois tipos de testes passando em todos os seus casos
